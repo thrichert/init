@@ -1,0 +1,25 @@
+
+; <<>> DiG 9.8.3-P1 <<>> slash16.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61217
+;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;slash16.org.			IN	A
+
+;; ANSWER SECTION:
+slash16.org.		60	IN	A	52.85.221.81
+slash16.org.		60	IN	A	52.85.221.51
+slash16.org.		60	IN	A	52.85.221.31
+slash16.org.		60	IN	A	52.85.221.3
+slash16.org.		60	IN	A	52.85.221.57
+slash16.org.		60	IN	A	52.85.221.222
+slash16.org.		60	IN	A	52.85.221.236
+slash16.org.		60	IN	A	52.85.221.251
+
+;; Query time: 13 msec
+;; SERVER: 10.51.1.42#53(10.51.1.42)
+;; WHEN: Tue Jan 30 18:34:35 2018
+;; MSG SIZE  rcvd: 157
+
