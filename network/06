@@ -1,0 +1,9 @@
+/etc/resolv.conf est le fichier de configuration dela bibliotheque 'resolver' permettant  de determiner, entre autre, quel(s) serveurs(s) DNS utiliser pour resoudre un nom de domaine.
+
+ex : 
+   nameserver 8.8.8.8 <- chez moi
+
+   at 42 :
+   	  domain 42.fr
+   	  nameserver 10.51.1.42
+   	  nameserver 10.51.1.43
