@@ -1,3 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-ls -laS $1
+if [[ $(md5sum path/to/crontab.backup | cut -d' ' -f1) == $(md5sum /etc/crontab | cut -d' ' -f1) ]]
+then
+    echo "Le fichier /etc/contrab a ete modifie !" | mail -s "[Security] Contrab changed" root
+fi
