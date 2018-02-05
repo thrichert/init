@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
-sudo apt-get update >> /var/log/upate_script.log
-sudo apt-get updgrade >> /var/log/update_script.log
+apt-get update -y > /var/log/upate_script.log 2>&1
+apt-get updgrade -y > /var/log/update_script.log 2>&1
