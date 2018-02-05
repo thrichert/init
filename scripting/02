@@ -2,3 +2,4 @@
 
 sudo apt-get update >> /var/log/upate_script.log
 sudo apt-get updgrade >> /var/log/update_script.log
+

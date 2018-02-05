@@ -6,3 +6,4 @@ if [[ $(md5sum $CONTRAB_BACKUP | cut -d' ' -f1) == $(md5sum /etc/crontab | cut -
 then
     echo "Le fichier /etc/contrab a ete modifie !" | mail -s "[Security] Contrab changed" root
 fi
+
