@@ -1,1 +1,2 @@
-systemctl start sshd
+systemctl restart sshd
+
