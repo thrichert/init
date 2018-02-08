@@ -1,9 +1,10 @@
 #!/bin/sh
 
-CONTRAB_BACKUP="/._contract.backup"
+CONTRAB_BACKUP="/root/.scripts/._crontab.backup"
 
 if [[ $(md5sum $CONTRAB_BACKUP | cut -d' ' -f1) == $(md5sum /etc/crontab | cut -d' ' -f1) ]]
 then
-    echo "Le fichier /etc/contrab a ete modifie !" | mail -s "[Security] Contrab changed" root
+    echo "File /etc/crontab has been modified !" | mail -s "[Security] Crontab changed" root
 fi
 
+echo "[OK] /etc/crontab stay unchanged !"
